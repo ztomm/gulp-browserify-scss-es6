@@ -59,10 +59,10 @@ gulp.task('js', function () {
 		.pipe(size())
 });
 
-gulp.task('watch', async function () {
+gulp.task('watch-src', async function () {
 	gulp.watch(['./src/**/*.js'], gulp.series('js'));
 	gulp.watch(['./src/**/*.scss'], gulp.series('css'));
 })
 
-gulp.task('watch', gulp.series(async () => { isDev = true }, 'clean', 'css', 'js', 'watch'));
+gulp.task('watch', gulp.series(async () => { isDev = true }, 'clean', 'css', 'js', 'watch-src'));
 gulp.task('default', gulp.series('clean', 'css', 'js'));
