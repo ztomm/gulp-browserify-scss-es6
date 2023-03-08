@@ -1,16 +1,16 @@
 {
-	"name": "gulp-browserify-sass-es6",
+	"name": "gulp-browserify-scss-es6",
 	"version": "0.0.0",
-	"description": "Gulp setup to transform SASS and ES6 scripts into browser supported bundles.",
+	"description": "Gulp setup to transform SCSS and ES6 scripts into browser supported bundles.",
 	"scripts": {
 		"watch": "gulp watch",
 		"build": "gulp"
 	},
-	"author": "Murat Karaca <dev@muratkaraca.de> (https://www.kmgt.de)",
+	"author": "Murat Motz <dev@ztom.de> (https://www.kmgt.de)",
 	"license": "MIT",
 	"devDependencies": {
-		"@babel/core": "^7.12.10",
-		"@babel/preset-env": "^7.12.11",
+		"@babel/core": "^7.21.0",
+		"@babel/preset-env": "^7.20.2",
 		"babelify": "^10.0.0",
 		"browserify": "^17.0.0",
 		"del": "^6.0.0",
@@ -21,10 +21,11 @@
 		"gulp-filesize": "0.0.6",
 		"gulp-if": "^3.0.0",
 		"gulp-rename": "^2.0.0",
-		"gulp-sass": "^4.1.0",
+		"gulp-sass": "^5.1.0",
 		"gulp-sourcemaps": "^3.0.0",
 		"gulp-uglify": "^3.0.2",
-		"gulplog": "^1.0.0",
+		"gulplog": "^2.0.1",
+		"sass": "^1.58.3",
 		"vinyl-buffer": "^1.0.1",
 		"vinyl-source-stream": "^2.0.0"
 	}

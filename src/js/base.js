@@ -1,5 +1,4 @@
-import Module1 from './module-1';
-
+const Module1 = require('./module-1');
 const module2 = require('./module-2');
 
 window.onload = function () {
@@ -11,5 +10,5 @@ window.onload = function () {
 	window.module2 = module2;
 
 	module1.hello();
-	
+
 }

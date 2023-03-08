@@ -1,13 +1,13 @@
-# Gulp with Browserify for SASS and ES6
+# Gulp with Browserify for SCSS and ES6
 
-Gulp setup to transform SASS and ES6 scripts into browser supported bundles.  
+Gulp setup to transform SCSS and ES6 scripts into browser supported bundles.  
 
 ``` bash
 # clone repo
-git clone https://github.com/xkmgt/gulp-browserify-sass-es6.git
+git clone https://github.com/ztomm/gulp-browserify-scss-es6.git
 
 # cd into folder
-cd gulp-browserify-sass-es6
+cd gulp-browserify-scss-es6
 
 # install node modules
 npm i

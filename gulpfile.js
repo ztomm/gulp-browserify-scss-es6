@@ -3,7 +3,7 @@ const browserify = require('browserify');
 const source = require('vinyl-source-stream');
 const buffer = require('vinyl-buffer');
 const uglify = require('gulp-uglify');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const sourcemaps = require('gulp-sourcemaps');
@@ -15,7 +15,7 @@ const log = require('gulplog');
 var isDev = false;
 
 gulp.task('clean', async function () {
-	return del([ 'dist' ]);
+	return del(['dist']);
 })
 
 gulp.task('css', async function () {

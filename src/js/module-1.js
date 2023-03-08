@@ -1,7 +1,7 @@
 class module1 {
 
 	constructor() {
-		console.log('hello from module 1 constructor');
+		console.log('Hello from module 1 constructor.');
 		this.init();
 	}
 
